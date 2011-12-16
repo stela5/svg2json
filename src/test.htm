@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+<title>svg2json -- TEST</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Language" content="en-us" />
+<!--[if lte IE 8]>
+	<style type="text/css">
+		v\:rect, v\:roundrect, v\:line, v\:polyline, v\:curve, v\:arc, v\:oval, v\:image, v\:shape, v\:group, v\:skew,
+		v\:stroke, v\:fill {behavior:url(#default#VML); display:inline-block }
+	</style>
+<![endif]-->
+<script>
+	var dojoConfig = {
+		gfxRenderer: 'svg,canvas,vml',
+		isDebug: true,
+		async: true
+	};
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/dojo/1.7.0/dojo/dojo.js"></script>
+<script src="https://github.com/stela5/Dojox.gfx-Plugins/raw/master/Blur/blur.js"></script>
+<script src="https://github.com/stela5/Dojox.gfx-Plugins/raw/master/Shadow/shadow.js"></script>
+<script src="tests.js"></script>
+<script>
+require(['dojo/ready', 'dojo/dom', 'dojo/_base/kernel', 'dojox/gfx', 'dojox/gfx/utils', 'dojo/on', 'dojo/_base/lang', 'dojo/dom-attr', 'dojo/_base/xhr', 'dojo/_base/connect'], function(ready, dom, dojo, gfx, utils, on, lang, domAttr, xhr, connect){
+
+var pos = 0;
+var surface = null;
+
+var stop = function(){
+	dom.byId("count").innerHTML = "";
+	dom.byId("img").src = "http://www.google.com/images/cleardot.gif";
+	surface.clear();
+	surface.setDimensions(500, 500);
+}
+
+var reset = function(){
+	pos = 0;
+	stop();
+};
+
+var test = function(){
+	var suite = dom.byId("suite").value;
+	if (pos === tests[suite].length) {
+		reset();
+		return;
+	}
+	var id = tests[suite][pos];
+	pos += 1;
+	dom.byId("count").innerHTML = "<strong>("+pos+" of "+tests[suite].length+" -- "+id+")</strong>";
+	var img = dom.byId("img");
+	var handle = connect.connect(img, "load", this, function(){
+		var mb = dojo.marginBox(img);
+		connect.disconnect(handle);
+		if (surface) {
+			var start = new Date();
+			dojo.style("msg", "display", "block");
+			surface.clear();
+			surface.setDimensions(mb.w, mb.h);
+			var xhrArgs = {
+				url: "test.php",
+				content: {"suite":suite,"file":id},
+				handleAs: "json",
+				load: function(data) {
+					var shape = null;
+					if(data instanceof Array && data.length > 0) shape = data[0];
+					if (shape) {
+						//console.log(shape);
+						try {
+							gfx.utils.deserialize(surface, shape);
+							dojo.style("msg", "display", "none");
+							console.info(id+" added ("+(new Date()-start)+" ms)");
+						} catch(e) {
+							console.error(e);
+							dojo.style("msg", "display", "none");
+						}
+
+					}
+				},
+				error: function(error) {
+					console.error(error);
+					dojo.style("msg", "display", "none");
+				}
+			}
+			var deferred = xhr.get(xhrArgs);
+		}
+	});
+	domAttr.set(img, "src", "../svg-test-samples/"+suite+"/"+id+".png");
+};
+
+var init = function(){
+	var container = dom.byId("gfx");
+	surface = gfx.createSurface(container, 500, 500);
+	dom.byId("render").innerHTML = "JSON ("+gfx.renderer+" renderer):";
+	dom.byId("suite")[0].selected = true;
+	on(dom.byId("testbutton"), "click", test);
+	on(dom.byId("suite"), "change", reset);
+	// update deserialize to process effects
+	var d = dojo, g = gfx, gu = utils;
+	lang.mixin(gu, {
+		deserialize: function(
+			/* dojox.gfx.Surface || dojox.gfx.Shape */ parent,
+			/* dojox.gfx.Shape || Array */ object
+		){
+			if(object instanceof Array){
+				return d.map(object, d.hitch(null, gu.deserialize, parent));	// Array
+			}
+			var shape = ("shape" in object) ? parent.createShape(object.shape) : parent.createGroup();
+			if("transform" in object){
+				shape.setTransform(object.transform);
+			}
+			if("stroke" in object){
+				shape.setStroke(object.stroke);
+			}
+			if("fill" in object){
+				shape.setFill(object.fill);
+			}
+			if("font" in object){
+				shape.setFont(object.font);
+			}
+			if("textpath" in object){
+				shape.setShape(object.textpath);
+			}
+			if("effect" in object){
+				// https://github.com/mrbluecoat/Dojox.gfx-Plugins/
+				if(typeof(object.effect) == "object" && "type" in object.effect){
+					// determine if blur or shadow
+					switch(object.effect.type){
+						case "blur":
+							shape.setBlur(object.effect);
+							break;
+						case "shadow":
+							shape.setShadow(object.effect);
+							break;
+					}
+					shape.effect = object.effect;
+				}
+			}
+			if("errors" in object){
+				console.error(object.errors);
+			}
+			if("children" in object){
+				d.forEach(object.children, d.hitch(null, gu.deserialize, shape));
+			}
+			return shape;	// dojox.gfx.Shape
+		}		
+	});
+};
+
+ready(init);
+
+})
+</script>
+</head>
+<body>
+
+<h3>svg2json -- TEST</h3>
+<p>
+<select id="suite">
+  <option value="callouts">Simple Test Suite</option>
+  <option value="fabricjs">FabricJS Test Suite</option>
+  <option value="other">Other Various Tests</option>
+  <option value="w3c-svg-11f2">W3C SVG 1.1F2 Test Suite</option>
+</select>
+&nbsp;
+<button id="testbutton">Test</button> <span id="count"></span></p>
+<table border="0">
+<tr>
+  <td width="50%">PNG:</td>
+  <td id="render" width="50%">JSON:</td>
+</tr>
+<tr>
+  <td><img id="img" src="http://www.google.com/images/cleardot.gif" /></td>
+  <td><div id="msg" style="color:#E00000;display:none;">Processing - please wait...</div><div id="gfx"></div></td>
+</tr>
+</table>
+
+</body>
+</html>
+

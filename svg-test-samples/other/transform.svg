@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width='500' height='500'>
+<title>transform.svg</title>
+<desc>svg version of transform</desc>
+  <defs>
+    <linearGradient y1='0' x2='100' id='unique1' gradientUnits='userSpaceOnUse' x1='0' y2='100'>
+      <stop stop-opacity='1' stop-color='rgb(0, 128, 0)' offset='0' />
+      <stop stop-opacity='1' stop-color='rgb(255, 0, 0)' offset='0.5' />
+      <stop stop-opacity='1' stop-color='rgb(0, 0, 255)' offset='1' />
+    </linearGradient>
+    <linearGradient y1='0' x2='100' id='unique2' gradientUnits='userSpaceOnUse' x1='0' y2='100'>
+      <stop stop-opacity='1' stop-color='rgb(0, 0, 0)' offset='0' />
+      <stop stop-opacity='1' stop-color='rgb(255, 255, 255)' offset='1' />
+    </linearGradient>
+  </defs>
+  <g id='grid'>
+      <line stroke-miterlimit='4' y1='0' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='0' />
+      <line stroke-miterlimit='4' y1='0' x2='0' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='50' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='50' />
+      <line stroke-miterlimit='4' y1='0' x2='50' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='50' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='100' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='100' />
+      <line stroke-miterlimit='4' y1='0' x2='100' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='100' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='150' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='150' />
+      <line stroke-miterlimit='4' y1='0' x2='150' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='150' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='200' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='200' />
+      <line stroke-miterlimit='4' y1='0' x2='200' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='200' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='250' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='250' />
+      <line stroke-miterlimit='4' y1='0' x2='250' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='250' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='300' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='300' />
+      <line stroke-miterlimit='4' y1='0' x2='300' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='300' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='350' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='350' />
+      <line stroke-miterlimit='4' y1='0' x2='350' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='350' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='400' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='400' />
+      <line stroke-miterlimit='4' y1='0' x2='400' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='400' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='450' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='450' />
+      <line stroke-miterlimit='4' y1='0' x2='450' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='450' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='500' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='0' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+      <line stroke-miterlimit='4' y1='0' x2='500' fill-opacity='0' stroke='rgb(0, 0, 0)' stroke-opacity='1' stroke-linejoin='miter' x1='500' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' y2='500' />
+  </g>
+  <g id='checkerboard'>
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='0' height='50' stroke-linejoin='miter' y='0' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='0' height='50' stroke-linejoin='miter' y='100' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='0' height='50' stroke-linejoin='miter' y='200' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='0' height='50' stroke-linejoin='miter' y='300' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='0' height='50' stroke-linejoin='miter' y='400' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='50' height='50' stroke-linejoin='miter' y='50' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='50' height='50' stroke-linejoin='miter' y='150' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='50' height='50' stroke-linejoin='miter' y='250' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='50' height='50' stroke-linejoin='miter' y='350' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='50' height='50' stroke-linejoin='miter' y='450' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='100' height='50' stroke-linejoin='miter' y='0' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='100' height='50' stroke-linejoin='miter' y='100' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='100' height='50' stroke-linejoin='miter' y='200' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='100' height='50' stroke-linejoin='miter' y='300' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='100' height='50' stroke-linejoin='miter' y='400' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='150' height='50' stroke-linejoin='miter' y='50' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='150' height='50' stroke-linejoin='miter' y='150' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='150' height='50' stroke-linejoin='miter' y='250' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='150' height='50' stroke-linejoin='miter' y='350' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='150' height='50' stroke-linejoin='miter' y='450' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='200' height='50' stroke-linejoin='miter' y='0' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='200' height='50' stroke-linejoin='miter' y='100' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='200' height='50' stroke-linejoin='miter' y='200' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='200' height='50' stroke-linejoin='miter' y='300' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='200' height='50' stroke-linejoin='miter' y='400' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='250' height='50' stroke-linejoin='miter' y='50' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='250' height='50' stroke-linejoin='miter' y='150' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='250' height='50' stroke-linejoin='miter' y='250' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='250' height='50' stroke-linejoin='miter' y='350' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='250' height='50' stroke-linejoin='miter' y='450' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='300' height='50' stroke-linejoin='miter' y='0' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='300' height='50' stroke-linejoin='miter' y='100' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='300' height='50' stroke-linejoin='miter' y='200' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='300' height='50' stroke-linejoin='miter' y='300' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='300' height='50' stroke-linejoin='miter' y='400' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='350' height='50' stroke-linejoin='miter' y='50' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='350' height='50' stroke-linejoin='miter' y='150' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='350' height='50' stroke-linejoin='miter' y='250' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='350' height='50' stroke-linejoin='miter' y='350' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='350' height='50' stroke-linejoin='miter' y='450' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='400' height='50' stroke-linejoin='miter' y='0' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='400' height='50' stroke-linejoin='miter' y='100' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='400' height='50' stroke-linejoin='miter' y='200' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='400' height='50' stroke-linejoin='miter' y='300' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='400' height='50' stroke-linejoin='miter' y='400' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='450' height='50' stroke-linejoin='miter' y='50' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='450' height='50' stroke-linejoin='miter' y='150' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='450' height='50' stroke-linejoin='miter' y='250' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='450' height='50' stroke-linejoin='miter' y='350' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect stroke-miterlimit='4' width='50' fill-opacity='0.1' stroke='none' stroke-opacity='0' x='450' height='50' stroke-linejoin='miter' y='450' fill='rgb(255, 0, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+  </g>
+  <g id='rect with color gradient'>
+    <rect stroke-miterlimit='4' width='100' transform='matrix(1, 0, 0, 1, 100, 100)' stroke='rgb(0, 0, 0)' stroke-opacity='1' x='0' height='100' stroke-linejoin='miter' y='0' stroke-dasharray='none' fill='url(#unique1)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+  </g>
+  <g id='rect with gray gradient'>
+    <rect stroke-miterlimit='4' width='100' stroke='rgb(0, 0, 0)' stroke-opacity='1' x='0' height='100' stroke-linejoin='miter' y='0' stroke-dasharray='none' fill='url(#unique2)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+  </g>
+  <g id='rotated group' transform='matrix(0.9659258262890683, -0.25881904510252074, 0.25881904510252074, 0.9659258262890683, -56.1862178478973, 73.22330470336311)'>
+      <rect id='green rect' stroke-miterlimit='4' width='100' fill-opacity='1' stroke='rgb(0, 0, 0)' stroke-opacity='1' x='200' height='100' stroke-linejoin='miter' y='200' stroke-dasharray='none' fill='rgb(0, 128, 0)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <rect id='blue rect' stroke-miterlimit='4' width='100' fill-opacity='1' transform='matrix(0.8660254037844387, -0.49999999999999994, 0.49999999999999994, 0.8660254037844387, 281.69872981077805, 231.69872981077808)' stroke='none' stroke-opacity='0' x='0' height='100' stroke-linejoin='miter' y='0' fill='rgb(0, 0, 255)' stroke-width='1' stroke-linecap='butt' fill-rule='evenodd' />
+      <path id='black path' stroke-miterlimit='4' fill-opacity='0' transform='matrix(1, 0, 0, 1, 0, 0)' stroke='rgb(0, 0, 0)' stroke-opacity='1' d='M 300 100L 400 200L 400 300L 300 400C 400 300 400 200 300 100' stroke-linejoin='miter' stroke-dasharray='none' fill='none' stroke-width='1' stroke-linecap='butt' />
+      <path id='red path' stroke-miterlimit='4' fill-opacity='0' transform='matrix(1, 0, 0, 1, 100, 0)' stroke='rgb(255, 0, 0)' stroke-opacity='1' d='M 300 100L 400 200L 400 300L 300 400C 400 300 400 200 300 100' stroke-linejoin='miter' stroke-dasharray='none' fill='none' stroke-width='2' stroke-linecap='butt' />
+      <path id='blue path' stroke-miterlimit='4' fill-opacity='0' transform='matrix(-1, 1.2246063538223773e-16, -1.2246063538223773e-16, -1, 500, 500)' stroke='rgb(0, 0, 255)' stroke-opacity='1' d='M 300 100l 100 100l 0 100l-100 100c 100-100 100-200 0-300' stroke-linejoin='miter' stroke-dasharray='none' fill='none' stroke-width='2' stroke-linecap='butt' />
+  </g>
+</svg>
+

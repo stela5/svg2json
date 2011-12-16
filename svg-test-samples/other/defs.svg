@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events">
+    <defs>
+        <!-- A circle of radius 40 -->
+        <circle id = "s1" cx = "200" cy = "200" r = "40" fill = "yellow" stroke = "black" stroke-width = "3"/>
+        <!-- An ellipse (rx=40,ry=15) -->
+        <ellipse id = "s2" cx = "200" cy = "150" rx = "40" ry = "15" fill = "salmon" stroke = "black" stroke-width = "3"/>
+    </defs>
+    <use x = "100" y = "10" xlink:href = "#s1"/>
+    <use x = "100" y = "175" xlink:href = "#s2"/>
+</svg>

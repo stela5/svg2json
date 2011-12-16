@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="521"
+   height="521"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="C:\Users\Katzafracas\Documents\Isaac\svg"
+   sodipodi:docname="US_Great_Seal_Reverse.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient6071">
+      <stop
+         id="stop6073"
+         offset="0"
+         style="stop-color:#735d55;stop-opacity:1;" />
+      <stop
+         id="stop6075"
+         offset="1"
+         style="stop-color:#735d55;stop-opacity:0;" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6071"
+       id="radialGradient3509"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.2307465,0,0,3.9400536e-2,748.73793,1012.3154)"
+       cx="-2254.4504"
+       cy="-2493.8835"
+       fx="-2254.4504"
+       fy="-2493.8835"
+       r="137.91751" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="ground"
+     style="display:inline"
+     transform="translate(-100,-800)">
+     <path
+       style="fill:url(#radialGradient3509);fill-opacity:1;stroke:none;stroke-width:17.25271606;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 500.17357,833.92759 C 482.86915,950.79545 382.05351,1040.5653 260.39844,1040.5653 C 138.95543,1040.5653 38.100668,950.34917 20.536007,833.77951 L 500.17357,833.92759 z "
+       id="path3507"
+       sodipodi:nodetypes="cscc" />
+  </g>
+</svg>

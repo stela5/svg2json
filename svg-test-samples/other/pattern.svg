@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <pattern id="TrianglePattern" patternUnits="userSpaceOnUse" width="10px" height="10px" x="0" y="0">
+      <image x="0" y="0" width="10px" height="10px" xlink:href="http://upload.wikimedia.org/wikipedia/commons/9/99/Dot1.png" />
+    </pattern> 
+  </defs>
+
+
+  <!-- The ellipse is filled using a dot pattern paint server
+       and stroked with black -->
+  <ellipse fill="url(#TrianglePattern)" stroke="black" stroke-width="2"  
+           cx="100" cy="50" rx="50" ry="20" />
+</svg>

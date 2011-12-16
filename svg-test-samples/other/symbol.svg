@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">>
+
+<defs>
+   <symbol id="symbolRect" overflow="visible">
+     <rect x="-30" y="-30" width="60" height="60" style="fill:rgb(240,65,25);
+     fill-opacity:0.8;stroke:rgb(0,0,0);stroke-width:3" />
+  </symbol>
+   <symbol id="symbolCirc" overflow="visible">
+     <circle cx="0" cy="0" r="30" style="fill:rgb(12,166,107);fill-opacity:0.8;
+     stroke:rgb(0,0,0);stroke-width:3" />
+   </symbol>
+</defs>
+
+<g id="staedteRect">
+  <use id="Zurich" x="68" y="53" xlink:href="#symbolRect"/>
+  <use id="Basel" x="61" y="33" xlink:href="#symbolRect"/>
+  <use id="Genf" x="149" y="118" xlink:href="#symbolRect"/>
+  <use id="Bern" x="60" y="110" xlink:href="#symbolRect"/>
+</g>
+<g id="staedteCirc">
+  <use id="Luzern" x="66" y="89" xlink:href="#symbolCirc"/>
+  <use id="St. Gallen" x="74" y="146" xlink:href="#symbolCirc"/>
+  <use id="Chur" x="75" y="110" xlink:href="#symbolCirc"/>
+  <use id="Lugano" x="71" y="120" xlink:href="#symbolCirc"/>
+</g>
+
+</svg>

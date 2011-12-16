@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>svg2json -- DEMO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Language" content="en-us" />
+<script>
+	var dojoConfig = {
+		isDebug: true
+	};
+</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/dojo/1.7.0/dojo/dojo.js"></script>
+</head>
+<body>
+	<h3>svg2json -- DEMO</h3>
+	<fieldset style="border: solid black 1px;padding: 1em;"><legend>SVG (XML)</legend>
+		<textarea id="input" rows="14" style="width: 100%" wrap="off"></textarea>
+		<button onclick="submit()">Convert To JSON</button>
+	</fieldset>
+	<br />		
+	<fieldset style="border: solid black 1px;padding: 1em;"><legend>JSON Code</legend>
+		<textarea id="response" rows="14" style="width: 100%" wrap="on"></textarea>
+	</fieldset>
+	<script type="text/javascript">
+		function submit(){
+			dojo.byId("response").value = "";
+			var data = dojo.byId("input").value;
+			dojo.xhrPost({
+				url: "convert.php", 
+				handleAs: "text",
+				postData: data,
+
+				// The handle function will be called on a successful response.
+				handle: function(response, ioArgs) {
+					dojo.byId("response").value = response;
+					return response;
+				}
+			}, true);  		
+		}
+		dojo.addOnLoad(function(){
+			dojo.byId("input").value = "";
+			dojo.byId("response").value = "";
+		});
+	</script>
+</body>
+</html>
+

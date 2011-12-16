@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg548"
+   sodipodi:version="0.32"
+   width="500"
+   height="450"
+   sodipodi:docbase="/var/www/html/svg_gallery/svg/callouts"
+   sodipodi:docname="Callout chat.svg"
+   inkscape:version="0.45+devel+devel"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="I:\Documents and Settings\Eric\Bureau\Callout chat.png"
+   inkscape:export-xdpi="24.450001"
+   inkscape:export-ydpi="24.450001">
+  <metadata
+     id="metadata2421" />
+  <defs
+     id="defs550">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-50 : 600 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="700 : 600 : 1"
+       inkscape:persp3d-origin="300 : 400 : 1"
+       id="perspective14" />
+    <filter
+       inkscape:collect="always"
+       id="filter3239">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.9230635"
+         id="feGaussianBlur3241" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     inkscape:zoom="0.38625"
+     inkscape:cx="-230.09628"
+     inkscape:cy="-50.29904"
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     showgrid="false"
+     inkscape:current-layer="svg548" />
+  <metadata
+     id="metadata2423">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Chat callout</dc:title>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:rights>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:format>image/svg+xml</dc:format>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g3182"
+     transform="translate(14.43992,9.9282164)">
+    <path
+       transform="matrix(0.5932936,0,0,0.5932936,-16.393724,142.91716)"
+       style="font-size:12px;fill:#000000;fill-opacity:0.49803922;fill-rule:evenodd;stroke-width:2.5;stroke-linecap:round;filter:url(#filter3239)"
+       d="M 257.44008,30.840615 C 148.26068,32.594977 51.959695,93.437371 31.514119,179.74687 C 8.1572899,278.34599 92.595869,373.02219 220.01919,391.15312 C 220.046,391.30501 220.00085,391.52974 219.98874,391.74687 L 219.25798,391.77812 L 119.96626,484.12187 L 323.96949,388.27812 L 321.95991,388.34062 L 323.26918,387.34062 L 326.19221,387.24687 L 323.96949,388.27812 L 326.77073,388.18437 L 326.77073,387.21562 L 326.80118,387.21562 C 415.07407,367.77053 476.9617,315.08459 493.50531,245.24687 C 516.87169,146.60745 432.32807,51.885091 304.81755,33.809365 C 288.87873,31.549899 273.03714,30.589992 257.44008,30.840615 z"
+       id="path780" />
+    <path
+       style="font-size:12px;fill:#ffffff;fill-rule:evenodd;stroke:#3399ff;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 152.98991,140.41459 C 88.214466,141.45544 31.079713,177.55284 18.949485,228.75971 C 5.0920287,287.25793 55.188898,343.42872 130.78834,354.18568 C 130.80424,354.2758 130.77745,354.40914 130.77027,354.53795 L 130.33672,354.55649 L 71.427578,409.34344 L 192.46138,352.47996 L 191.26911,352.51704 L 192.0459,351.92375 L 193.78011,351.86813 L 192.46138,352.47996 L 194.12334,352.42434 L 194.12334,351.84958 L 194.1414,351.84958 C 246.51314,340.31294 283.23067,309.05471 293.04589,267.62044 C 306.90901,209.0983 256.74983,152.90014 181.09866,142.17592 C 171.64227,140.8354 162.24354,140.2659 152.98991,140.41459 z"
+       id="path779" />
+    <path
+       transform="matrix(-0.7461576,0,0,0.7461576,459.9738,7.0538798)"
+       style="font-size:12px;fill:#000000;fill-opacity:0.49803922;fill-rule:evenodd;stroke-width:2.5;stroke-linecap:round;filter:url(#filter3239)"
+       d="M 257.44008,30.840615 C 148.26068,32.594977 51.959695,93.437371 31.514119,179.74687 C 8.1572899,278.34599 92.595869,373.02219 220.01919,391.15312 C 220.046,391.30501 220.00085,391.52974 219.98874,391.74687 L 219.25798,391.77812 L 119.96626,484.12187 L 323.96949,388.27812 L 321.95991,388.34062 L 323.26918,387.34062 L 326.19221,387.24687 L 323.96949,388.27812 L 326.77073,388.18437 L 326.77073,387.21562 L 326.80118,387.21562 C 415.07407,367.77053 476.9617,315.08459 493.50531,245.24687 C 516.87169,146.60745 432.32807,51.885091 304.81755,33.809365 C 288.87873,31.549899 273.03714,30.589992 257.44008,30.840615 z"
+       id="path2389" />
+    <path
+       style="font-size:12px;fill:#ffffff;fill-rule:evenodd;stroke:#3399ff;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 289.64691,10.028964 C 371.11196,11.337997 442.96766,56.736009 458.22328,121.1365 C 475.65116,194.70698 412.64667,265.35034 317.5688,278.87886 C 317.54879,278.99221 317.58249,279.1599 317.59152,279.3219 L 318.13678,279.34522 L 392.22404,348.24821 L 240.00549,276.73367 L 241.50495,276.7803 L 240.52803,276.03414 L 238.347,275.96419 L 240.00549,276.73367 L 237.91533,276.66372 L 237.91533,275.94087 L 237.89261,275.94087 C 172.02713,261.43177 125.8492,222.11976 113.50506,170.00982 C 96.070066,96.409259 159.15293,25.73146 254.29587,12.244114 C 266.18872,10.558204 278.00906,9.8419608 289.64691,10.028964 z"
+       id="path2391" />
+  </g>
+</svg>

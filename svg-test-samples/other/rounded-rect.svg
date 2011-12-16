@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="310.26001" height="220.53" id="svg14836" sodipodi:version="0.32" inkscape:version="0.45.1" version="1.0" sodipodi:docbase="/home/marco/Desktop" sodipodi:docname="mcol_frame.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs id="defs14838">
+    <filter inkscape:collect="always" id="filter3448">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="6.3310537" id="feGaussianBlur3450"/>
+    </filter>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.98994949" inkscape:cx="262.75161" inkscape:cy="74.474267" inkscape:document-units="px" inkscape:current-layer="layer1" inkscape:window-width="822" inkscape:window-height="597" inkscape:window-x="96" inkscape:window-y="42" width="300.26px" height="210.53px"/>
+  <metadata id="metadata14841">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Livello 1" inkscape:groupmode="layer" id="layer1" transform="translate(-143.942, -533.957)">
+    <g style="display: inline;" id="g6986" transform="matrix(1.76213, 0, 0, 1.78426, 93.3221, -572.559)">
+      <rect transform="matrix(0.696704, 0, 0, 0.696704, -215.481, 79.8064)" rx="26.263966" ry="26.263968" y="790.98615" x="365.32025" height="147.51028" width="220.81209" id="rect6988" style="fill: rgb(50, 50, 50); fill-opacity: 1; fill-rule: nonzero; stroke: none; stroke-width: 11.8; stroke-linecap: butt; stroke-linejoin: round; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0pt; stroke-opacity: 1; filter: url(&quot;#filter3448&quot;);"/>
+      <rect rx="18.298204" ry="18.298206" y="624.23883" x="32.862808" height="102.77097" width="153.84062" id="rect6990" style="fill: rgb(238, 238, 236); fill-opacity: 1; fill-rule: nonzero; stroke: rgb(0, 0, 0); stroke-width: 8.2211; stroke-linecap: butt; stroke-linejoin: round; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0pt; stroke-opacity: 1;"/>
+    </g>
+  </g>
+</svg>

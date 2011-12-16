@@ -23,6 +23,7 @@ See *demo.htm* and *test.htm* in the src directory.
 
 **Q:** Why do I get errors when converting a specific SVG file?  
 **A:** Most likely because:
+
  * The SVG file uses advanced <a href="http://www.w3.org/TR/SVG/filters.html">filters</a> (only blur and shadow are currently supported)
  * The SVG file uses <a href="http://help.adobe.com/en_US/illustrator/cs/using/WS714a382cdf7d304e7e07d0100196cbc5f-61e4a.html">non-standard effects</a> or <a href="http://wiki.inkscape.org/wiki/index.php/TextOutputDev">non-standard attributes/elements</a>
  * The SVG file does not use the <a href="http://www.w3.org/TR/SVG/">SVG 1.1 Second Edition</a> standard

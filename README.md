@@ -22,13 +22,13 @@ See *demo.htm* and *test.htm* in the src directory.
 **A:** The JSON format is more compact and can be used in conjunction with various JavaScript libraries to display SVG content on older versions of IE and other platforms that only support Canvas.
 
 **Q:** Why do I get errors when converting a specific SVG file?  
-**A:** Most likely because:  
-    * The SVG file uses advanced <a href="http://www.w3.org/TR/SVG/filters.html">filters</a> (only blur and shadow are currently supported)  
-    * The SVG file uses <a href="http://help.adobe.com/en_US/illustrator/cs/using/WS714a382cdf7d304e7e07d0100196cbc5f-61e4a.html">non-standard effects</a> or <a href="http://wiki.inkscape.org/wiki/index.php/TextOutputDev">non-standard attributes/elements</a>  
-    * The SVG file does not use the <a href="http://www.w3.org/TR/SVG/">SVG 1.1 Second Edition</a> standard  
-    * The SVG file is corrupt (open in <a href="http://xmlgraphics.apache.org/batik/tools/browser.html">Squiggle</a> or another SVG-compliant browser to verify)  
-    * Your chosen JSON renderer encountered a bug (for example, Dojox.GFX does not currently support applying a transform to a gradient)  
-    * svg2json encountered a bug (please report here or fork)
+**A:** Most likely because:
+* The SVG file uses advanced <a href="http://www.w3.org/TR/SVG/filters.html">filters</a> (only blur and shadow are currently supported)
+* The SVG file uses <a href="http://help.adobe.com/en_US/illustrator/cs/using/WS714a382cdf7d304e7e07d0100196cbc5f-61e4a.html">non-standard effects</a> or <a href="http://wiki.inkscape.org/wiki/index.php/TextOutputDev">non-standard attributes/elements</a>
+* The SVG file does not use the <a href="http://www.w3.org/TR/SVG/">SVG 1.1 Second Edition</a> standard
+* The SVG file is corrupt (open in <a href="http://xmlgraphics.apache.org/batik/tools/browser.html">Squiggle</a> or another SVG-compliant browser to verify)
+* Your chosen JSON renderer encountered a bug (for example, Dojox.GFX does not currently support applying a transform to a gradient)
+* svg2json encountered a bug (please report here or fork)
 
 **Q:** Why is it so slow?  Why is the code so ugly?  Are we there yet?  ...etc.  
 **A:** This project is experimental.  If speed, performance, and robustness are your top priority, consider using <a href="http://xmlgraphics.apache.org/batik/">Batik</a>, <a href="http://www.amplesdk.com/">Ample SDK</a>, <a href="https://github.com/kangax/fabric.js/">FabricJS</a>, or <a href="http://readysetraphael.com/">Ready Set Raphael</a>.  Also, feel free to fork this code and improve it!
